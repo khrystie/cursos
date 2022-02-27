@@ -6,8 +6,8 @@ public class Principal {
        feliz.bim3 = 50;
        feliz.bim4 = 80;
        
-       System.out.println(VerificadoraNota.mediaAluno(feliz));
-       System.out.println(VerificadoraNota.passouDeAno(feliz));
+       System.out.println(feliz.media());
+       System.out.println(feliz.passouDeAno());
        
     }
 }
